@@ -3,7 +3,7 @@
 Q. What is TypeScript ?
 
 => TypeScript is an open source language and is a super set of JavaScript.  
-=> That means Vanilla JavaScript is also a 100% typescript. It just add some extra features like static-types etc, on top of JavaScript.  
+=> That means Vanilla JavaScript is also a 100% typescript. It just adds some extra features like static-types etc, on top of JavaScript.  
 => The main reasion to use typescript is to add static-types to JavaScript, rest most of the things are same.  
 => It is very helpful when it comes to avoid errors and maintaining unit testing for react development.  
 => create react app with typescript, most are same -
