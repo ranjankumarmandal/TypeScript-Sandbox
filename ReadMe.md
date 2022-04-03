@@ -6,6 +6,8 @@ Q. What is TypeScript ?
 => That means Vanilla JavaScript is also a 100% typescript. It just adds some extra features like static-types etc, on top of JavaScript.  
 => The main reasion to use typescript is to add static-types to JavaScript, rest most of the things are same.  
 => It is very helpful when it comes to avoid errors and maintaining unit testing for react development.  
+=> Browsers knows only JavaScript they don't know TypeScript, hence typescript compiler compiles down typescript to pure JavaScript with version as mentioned in file tsconfig.json in our react project, mostly target is set to es5 there.  
+=> For more learning, search on google 'TypeScript vs Babel'.  
 => create react app with typescript, most are same -
 
                             npx create-react-app appName --template typescript
