@@ -10,7 +10,8 @@ Q. What is TypeScript ?
 
                             npx create-react-app appName --template typescript
 
-Q. Why yarn for installing dependencies when both yarn & npm downloads dependencies from the same npm-repositories ?  
+Q. Why yarn for installing dependencies when both yarn & npm downloads dependencies from the same npm-repositories ?
+
 => As mentioned above, while NPM installs dependency packages sequentially, Yarn installs in-parallel. Because of this, Yarn performs faster than NPM when installing larger files. Both tools also offer the option of saving dependency files in the offline cache. Comparing the speed, yarn is the clear winner.  
 => Yarn and NPM download packages from the npm repository, using yarn add vs npm install command.  
 => Install yarn with npm -
