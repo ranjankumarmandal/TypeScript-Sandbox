@@ -8,7 +8,7 @@ Q. What is TypeScript ?
 => It is very helpful when it comes to avoid errors and maintaining unit testing for react development.  
 => Browsers knows only JavaScript they don't know TypeScript, hence typescript compiler compiles down typescript to pure JavaScript with version as mentioned in file tsconfig.json in our react project, mostly target is set to es5 there.  
 => For more learning, search on google 'TypeScript vs Babel'.  
-=> The noEmit option tells TypeScript that we only want to run type checking and do not want the compiler to output any transpiled code. Once a tsconfig file is present, VSCode (or your favorite IDE) should detect that TypeScript is used and automatically type check your code.  
+=> The noEmit option tells TypeScript that we only want to run type checking and do not want the compiler to output any transpiled code. Once a tsconfig.json file is present, VSCode (or your favorite IDE) should detect that TypeScript is used and automatically type check your code.  
 => create react app with typescript, most are same -
 
                             npx create-react-app appName --template typescript
