@@ -1,4 +1,4 @@
-// Basic Types
+// Basic Types (or static types)
 
 let id: number = 5;
 let company: string = 'Traversy Media';
