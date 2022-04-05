@@ -19,7 +19,7 @@ const ranjan = new Person(1, 'Ranjan');
 const kumar = new Person(2, 'Kumar');
 const mandal = new Person(3, 'Mandal');
 
-class child extends Person {
+class Child extends Person {
   position: string;
 
   constructor(id: number, name: string, position: string) {
@@ -27,3 +27,7 @@ class child extends Person {
     this.position = position;
   }
 }
+
+const c = new Child(1, 'ranjan', 'se');
+console.log(c.name);
+console.log(c.register());
