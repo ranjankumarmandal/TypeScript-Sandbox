@@ -9,6 +9,10 @@ class Person {
     this.id = id;
     this.name = name;
   }
+
+  register() {
+    return `${this.name} is now registered!`;
+  }
 }
 
 const ranjan = new Person(1, 'Ranjan');
