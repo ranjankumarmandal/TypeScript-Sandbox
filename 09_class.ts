@@ -1,15 +1,8 @@
 // class in typescript - it is used to create multiples objects with template created in class. It works with concept of prototypes.
 
-interface PersonInterface {
-  id: number;
-  add: string;
-  name: string;
-  register(): string;
-}
-
-class Person implements PersonInterface {
-  id: number;
-  add: string;
+class Person {
+  private id: number;
+  protected add: string;
   name: string;
 
   constructor(id: number, name: string) {
