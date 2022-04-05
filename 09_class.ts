@@ -18,3 +18,12 @@ class Person {
 const ranjan = new Person(1, 'Ranjan');
 const kumar = new Person(2, 'Kumar');
 const mandal = new Person(3, 'Mandal');
+
+class child extends Person {
+  position: string;
+
+  constructor(id: number, name: string, position: string) {
+    super(id, name);
+    this.position = position;
+  }
+}
