@@ -1,7 +1,7 @@
 // interface - This is very popular for statically typing Object literals in typescript
 
 interface empInterface {
-  id: number;
+  readonly id: number;
   name: string;
   isDev: boolean;
   age?: number;
@@ -12,3 +12,6 @@ const emp: empInterface = {
   name: 'Brad',
   isDev: true,
 };
+
+emp.id = 4; // error because id is a readonly property can't be changed/mutated outside of objects.
+emp.name = 'Ranjan'; // no error, because any object elements are mutable outside if that's not readonly in typescript
