@@ -1,7 +1,8 @@
 // class in typescript - it is used to create multiples objects with template created in class. It works with concept of prototypes.
 
 class Person {
-  id: number;
+  private id: number;
+  protected add: string;
   name: string;
 
   constructor(id: number, name: string) {
