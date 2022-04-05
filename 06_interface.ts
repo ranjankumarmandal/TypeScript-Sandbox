@@ -4,6 +4,7 @@ interface empInterface {
   id: number;
   name: string;
   isDev: boolean;
+  age?: number;
 }
 
 const emp: empInterface = {
